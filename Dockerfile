@@ -12,6 +12,7 @@ COPY requirements.txt requirements.txt
 # NOTE: This would enable you to install some Python packages which require build.
 RUN apt-get update \
     && apt-get install gcc make -y \
+    && apt-get install build-essential \
     && apt-get clean \
     && pip install --no-cache-dir -r requirements.txt
 # Copy to the working directory.
