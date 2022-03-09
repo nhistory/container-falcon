@@ -5,4 +5,5 @@
 3. Get in the container via bash: `make bash`
 4. Run the service: `make start-api`
 
-In order to use Makefile on Windows, MinGW should be installed.
+In order to use Makefile on Windows, use Chocolatey.
+`choco install make`
